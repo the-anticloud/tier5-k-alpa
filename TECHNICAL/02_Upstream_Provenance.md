@@ -1,0 +1,28 @@
+# Upstream Provenance
+
+**Project:** `K_ALPA`  
+**Tier:** TIER_5_WORLD_NEURO_EMBODIED  
+**Identity:** Upstream `alpa-projects/alpa` @ `b8078a9f75cb` (Apache-2.0)
+
+## Recorded identity
+
+| Fact | Value |
+| --- | --- |
+| Upstream | `alpa-projects/alpa` |
+| Commit | `b8078a9f75cb4c90cabb4550ee48c99ef394e209` |
+| Upstream licence | Apache-2.0 |
+| Licence class | permissive |
+| Clone size | 7.7 MB |
+| Ledger | 0 blocks, chain verified |
+| Current TRL | NOT YET MEASURED |
+| Post-optimisation TRL | NOT YET MEASURED |
+| II budget cap | 1000.0 IIU |
+| Verified upstream edits | 1 |
+
+## Obligation
+
+`K_ALPA` is vendored under Apache-2.0 (permissive). Any Anticloud edit to
+the vendored tree is a derivative work and is tracked in
+`anticloud-edits.json`; the notice of changes is at the project `NOTICE.md`.
+Where the licence class is `unknown`, no edit may be applied until the
+licence is identified, because the absence of a licence is not a grant.

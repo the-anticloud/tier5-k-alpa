@@ -1,0 +1,20 @@
+{
+  "benchmark": "Radon_Complexity_Lab_Results",
+  "project": "K_ALPA",
+  "run_timestamp": "2026-09-30T17:14:20.030944+00:00",
+  "source": "https://radon.readthedocs.io/",
+  "results": {
+    "framework": "Radon \u2014 Cyclomatic Complexity & Maintainability Index",
+    "source": "https://radon.readthedocs.io/",
+    "files_analyzed": 10,
+    "average_complexity": {
+      "grade": "A",
+      "score": 3.1883289124668437
+    },
+    "complexity_grade": "A",
+    "complexity_score": 3.1883289124668437,
+    "status": "PASS",
+    "raw_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\setup.py\n    F 34:0 locate_cuda - C (11)\n    F 15:0 get_cuda_version - A (3)\n    C 125:4 InstallPlatlib - A (3)\n    F 76:0 get_cuda_version_str - A (2)\n    F 107:0 get_alpa_version - A (2)\n    C 120:4 BinaryDistribution - A (2)\n    M 127:8 InstallPlatlib.finalize_options - A (2)\n    M 122:8 BinaryDistribution.has_ext_modules - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\update_version.py\n    F 139:0 update - B (9)\n    F 55:0 git_describe_version - B (7)\n    F 177:0 main - A (3)\n    F 51:0 py_str - A (1)\n    F 166:0 sync_version - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\alpa\\api.py\n    M 149:4 ParallelizedFunc._decode_args_and_get_executable - B (10)\n    F 209:0 _compile_parallel_executable - A (5)\n    C 106:0 ParallelizedFunc - A (3)\n    F 25:0 init - A (2)\n    F 63:0 shutdown - A (2)\n    F 71:0 parallelize - A (2)\n    F 236:0 clear_executable_cache - A (1)\n    F 241:0 grad - A (1)\n    F 265:0 value_and_grad - A (1)\n    M 109:4 ParallelizedFunc.__init__ - A (1)\n    M 126:4 ParallelizedFunc.__call__ - A (1)\n    M 133:4 ParallelizedFunc.get_executable - A (1)\n    M 138:4 ParallelizedFunc.preshard_dynamic_args - A (1)\n    M 145:4 ParallelizedFunc.get_last_executable - A (1)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\alpa\\create_state_parallel.py\n    F 151:0 propagate_mesh_assignment - C (1",
+    "mi_output": "E:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\setup.py - A (48.63)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\update_version.py - A (67.31)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\alpa\\api.py - A (63.39)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREAM\\alpa\\create_state_parallel.py - A (57.72)\nE:\\fenta\\Downloads\\The Anticloud\\TIER_5_WORLD_NEURO_EMBODIED\\K_ALPA\\UPSTREA"
+  }
+}
